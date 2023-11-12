@@ -27,8 +27,8 @@ mode "qutebrowser sessions" {
     bindsym Mod1+l exec .../qute-session-scripts/load-session.sh
     bindsym Mod1+s exec .../qute-session-scripts/save-session.sh
     bindsym Mod1+d exec .../qute-session-scripts/delete-session.sh
-    bindsym Return mode "default"
     bindsym Mod1+Shift+q mode "default"
+    bindsym Ctrl+Return mode "default"
 }
 bindsym Mod1+Shift+q mode "qutebrowser sessions"
 ```
