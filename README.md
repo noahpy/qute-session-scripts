@@ -6,11 +6,6 @@ A small collection of shell scripts for managing different qutebrowser sessions 
 - Load a named session
 - Delete a named session
 
-## Usage
-Bind the scripts to keybindings of your choice :)
-You can restore / delete sessions even if there are no qutebrowser instances running.
-When updating an already saved session, I recommend using :w 
-
 ## Setup
 Clone this repo and enter its directory.
 Then run
@@ -25,6 +20,10 @@ Replace `dmenu-wl` in the scripts with any kind of menu programs you like (`dmen
 
 ## Usage
 Execute the scripts in your shell or integrate them into key bindings of your windows manager.
+
+You can restore / delete sessions even if there are no qutebrowser instances running.
+When updating an already saved session, I recommend using :w
+
 Here is my example for i3 / sway:
 ```
 # qutebrowser session commands
