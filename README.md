@@ -6,6 +6,11 @@ A small collection of shell scripts for managing different qutebrowser sessions 
 - Load a named session
 - Delete a named session
 
+## Usage
+Bind the scripts to keybindings of your choice :)
+You can restore / delete sessions even if there are no qutebrowser instances running.
+When updating an already saved session, I recommend using :w 
+
 ## Setup
 Clone this repo and enter its directory.
 Then run
