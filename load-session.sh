@@ -6,9 +6,7 @@
 
 sessions_path=$(realpath ~/.local/share/qutebrowser/sessions)
 
-rm ~/.local/share/qutebrowser/sessions/_autosave.yml
-
-sel=$(find $sessions_path -iname "*.yml" -exec basename {} .yml ";"  | dmenu -i)
+sel=$($(cat ~/.qutesessions)/get-sessions.sh | dmenu-wl)
 
 if [ $? -ne 0 ]; then
     exit 1
@@ -17,3 +15,4 @@ fi
 ps -A | grep -q 'qutebrowser' && qutebrowser :wq
 
 qutebrowser -r $sel
+
