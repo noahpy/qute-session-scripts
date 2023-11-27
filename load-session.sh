@@ -8,7 +8,7 @@ sessions_path=$(realpath ~/.local/share/qutebrowser/sessions)
 
 rm ~/.local/share/qutebrowser/sessions/_autosave.yml
 
-sel=$(find $sessions_path -iname "*.yml" -exec basename {} .yml ";"  | dmenu -nb '#2b3339' -nf '#d3c6aa' -sb '#d3c6aa' -sf '#212736' -i)
+sel=$(find $sessions_path -iname "*.yml" -exec basename {} .yml ";"  | dmenu -i)
 
 if [ $? -ne 0 ]; then
     exit 1
