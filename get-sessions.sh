@@ -1,4 +1,5 @@
 
+
 # path to session yaml files
 sessions_path=$(realpath ~/.local/share/qutebrowser/sessions)
 
