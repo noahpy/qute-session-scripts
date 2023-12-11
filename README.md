@@ -16,7 +16,11 @@ and then
 ```shell
 chmod +x *
 ```
-Replace `dmenu-wl` in the scripts with any kind of menu programs you like (`dmenu`, `rofi`, `wofi` etc.)
+Export the gloabl environment variable DMENU in your .bashrc / .zshrc file, which contains your dmenu-compatible command (`dmenu`, `rofi`, `wofi` etc.):
+```shell
+export DMENU="dmenu"
+```
+If you want to use different programs for different scripts, you can just overwrite the variable in the respective scripts (see .sh files).
 
 ## Usage
 Execute the scripts in your shell or integrate them into key bindings of your windows manager.
