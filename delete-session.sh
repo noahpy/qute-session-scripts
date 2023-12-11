@@ -1,5 +1,5 @@
 
-DMENU="dmenu-wl -b -i"
+# DMENU = "overwrite with your dmenu-compatibel command"
 
 sessions_path=$(realpath ~/.local/share/qutebrowser/sessions)
 

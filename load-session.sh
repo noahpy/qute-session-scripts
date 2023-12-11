@@ -3,7 +3,7 @@
 #   the new selected session is 'empty'. To avoid this problem, all qutebrowser windows are killed before
 #       opening the new session.
 
-DMENU="dmenu-wl -b -i"
+# DMENU = "overwrite with your dmenu-compatibel command"
 
 sessions_path=$(realpath ~/.local/share/qutebrowser/sessions)
 
